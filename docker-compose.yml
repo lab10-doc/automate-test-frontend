@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/234-lab11
+    ports:
+      - "8082:8080"
+  frontend:
+    image: taoluck/front
+    ports:
+      - "8109:80"
+      
